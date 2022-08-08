@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+   
+}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+
+*{
+    font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+#hero{
+    background-image: url(../imeg/bg-1.png);
+    background-size: cover;
+    height: 700px; no-repeat center
+}
+.hero-content {
+    padding-top: 280px;
+}
+.hero-content h1{
+    font-size: 75px;
+}
+
+.hero-content p{
+    font-size: 20px;
+    
+}
+.hero-content button{
+    background-color: #e8631c;
+    
+}
+.hero-content button:hover{
+    background-color: #994a1f;
+
+}
+/* ======fast====== */
+#fast{
+
+background-color: #f74f17;
+background-image: url(../imeg/nn.png)  ; no-repeat
+background-repeat: no-repeat;
+background-size: cover; 
+background-size: px;
+
+}
+
+.cad-pat{
+    display: flex;
+    padding: 0px 70px;
+    padding-bottom: 80px;
+}
+.fast-text h1{
+    font-size: 80px;
+
+}
+.fast-text h1{
+    font-size: 50px;
+}
+.a{
+border: none;
+}
+.card-img-top{
+   
+}
+/* ======secand-part========> */
+#secand-part{
+   background-color: #333333; 
+}
+.card{
+    background-color: #333333;
+}
+.lol{
+    background-color: #f74f17;
+}
+.lol img{
+width: 100px;
+padding: 40px 10px;
+padding-left: 0px;
+}
+.card-body a{
+
+    padding: 8px 90px;
+}
+/* ======[====-=====three-part--------- */
+.three{
+    display: flex;  
+}
+.text-h{
+background-color: #ff6633;
+padding: 300px ;
+}
+.text-h h1{
+
+}
+.text-h p{
+    padding: 30px;
+    font-size: 20px;
+}
+.text-h a{
+padding: 10px 80px;
+}
+.img-prt1 img {
+    width: 671PX;
+}
+/* =============-===four-part==-========== */
+.four-subb{
+    display: flex;
+    padding-bottom: 200px;
+}
+.four-block {
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+.four-block h1{
+    font-size: 60px;
+
+
+}
+.four-block p{
+    padding: 50px;
+}
+#four{
+    background-color: #333333;
+}
+.subb  h1{
+    font-size: 50px;
+}
+/* ======five======= */
+.five{
+    height: 700px;
+    background-image: url(../imeg/Scrn-shot_.png) ; 
+    background-size: cover; 
+    height: 900px; center
+ background-repeat: no-repeat;
+}
+.five-tex{
+    padding-top: 340px;
+}
+.five-tex h1{
+    padding: 50px;
+}
+/* .five::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.301)0, 0, 0, 0.452;
+   z-index: 1;
+   width: 100%;
+   height: 100%;
+} */
+/* ============-=six-part=========== */
+.sear{
+   width: 700px;
+    padding: 15px 100px;
+}
+.inpo{
+    width: 60%;
+    padding: 10px 600px;
+    border: no;
+}
+.six{
+    background-color: #e8631c;
+    height: 580px;
+}
+.six h1{
+    font-size: 70px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.six p{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.ss{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 40px;
+    margin-left: 0px;
+}
+/* ==-=========footer-part===== */
+.fut-part {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.a-tag{
+    color: aliceblue;
+}
+.f2-part p{
+    line-height: 15px;
+}
+/* ---------- */
+/* @media only screen and (max-width: 1200px) {
+    div.llk {
+        
+        padding-right: 50px !important;
+        padding: 2px 60px;
+    
+     margin: auto;
+    
+    }
+  } */
+  .img-fluid{
+    margin: 0px;
+    padding: 0px;
+  }
+  .llk{
+    padding-bottom: 200px;
+  }
+  .onn{
+    padding-bottom: 120px;
+  }
